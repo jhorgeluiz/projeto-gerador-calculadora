@@ -1,103 +1,299 @@
 @charset "UTF-8";
 
-html {
-    height: 100%;
+/* ====================CAPA TELA PEQUENA==================== */
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        background-color: #4245f1;
+        font: normal 15pt arial;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #b33a3a;
+        text-align: center;
+        margin: 0px;
+    }
+
+    main {
+        box-shadow: 2px 2px 3px #0000005e;
+        border-radius: 10px;
+        background-color: #dab618;
+        margin: auto;
+        margin-top: 20px;
+        width: 300px;
+        height: 480px;
+    }
+
+    section {
+        margin: auto;
+        display: block;
+    }
+
+    div  p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+    div input {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 15px;
+        box-shadow: 2px 2px 3px #0000005e;
+        border-radius: 10px;
+        border-style: none;
+        position: relative;
+        left: 35px;
+        bottom: 20px;
+        width: 90px;
+        height: 50px;
+    }
+
+    .gerar { 
+        background-color: #4245f1;
+        box-shadow: 2px 2px 3px #0000005e;
+        border-radius: 10px;
+        border-style: none;
+        font-size: 12px;
+        width: 65px;
+        height: 50px;
+    }
+    .gerar:active {
+        background-color: #7a7bda;
+    }
+
+    .apagar {
+        font-size: 15px;
+        width: 65px;
+        height: 50px;
+    }
+    .apagar:active {
+        background-color: #616164;
+    }
+
+    #seltab {
+        color: #4245f1;
+        display: inline-block;
+        padding: 5px;
+        box-shadow: 2px 2px 3px 3px #0000005e;
+        position: relative;
+        left: 100px;
+    }
+
+    footer {
+        box-shadow: 1px 1px 10px 3px #0000005e;
+        margin-top: 0px;
+        color: white;
+        text-align: center;
+        font-style: italic;
+    }
 }
 
-body {
-    
-    background-color: #4245f1;
-    font: normal 15pt arial;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
+/* ====================TELA MEDIA==================== */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    html {
+        height: 100%;
+    }
+
+    body {
+        background-color: #4245f1;
+        font: normal 15pt arial;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #b33a3a;
+        text-align: center;
+        margin: 0px;
+    }
+
+    main {
+        box-shadow: 2px 2px 3px #0000005e;
+        border-radius: 10px;
+        background-color: #dab618;
+        margin: auto;
+        margin-top: 10px;
+        width: 600px;
+        height: 320px;
+    }
+
+    section {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div  p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        position: relative;
+        left: 30px;
+    }
+
+    div input {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 15px;
+        box-shadow: 2px 2px 3px #0000005e;
+        border-radius: 10px;
+        border-style: none;
+        position: relative;
+        left: 35px;
+        bottom: 20px;
+        width: 90px;
+        height: 50px;
+    }
+
+    .gerar { 
+        background-color: #4245f1;
+        box-shadow: 2px 2px 3px #0000005e;
+        border-radius: 10px;
+        border-style: none;
+        font-size: 12px;
+        width: 65px;
+        height: 50px;
+    }
+    .gerar:active {
+        background-color: #7a7bda;
+    }
+
+    .apagar {
+        font-size: 15px;
+        width: 65px;
+        height: 50px;
+    }
+    .apagar:active {
+        background-color: #616164;
+    }
+
+    #seltab {
+        color: #4245f1;
+        display: inline-block;
+        padding: 5px;
+        box-shadow: 2px 2px 3px 3px #0000005e;
+        position: relative;
+        left: 50px;
+    }
+
+    footer {
+        box-shadow: 1px 1px 10px 3px #0000005e;
+        margin-top: 0px;
+        color: white;
+        text-align: center;
+        font-style: italic;
+    }
 }
 
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #b33a3a;
-    text-align: center;
-    margin: 0px;
-}
 
+/* ====================TELA GRANDE==================== */
 
-main {
-    box-shadow: 2px 2px 3px #0000005e;
-    border-radius: 10px;
-    background-color: #dab618;
-    margin: auto;
-    margin-top: 20px;
-    width: 300px;
-    height: 480px;
-    
-}
+@media screen and (min-width: 992px) {
 
-section {
-    margin: auto;
-    display: block;
-    
-}
+    html {
+        height: 100%;
+    }
 
+    body {
+        background-color: #4245f1;
+        font: normal 15pt arial;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
 
-div  p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    
-}
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #b33a3a;
+        text-align: center;
+        margin: 0px;
+    }
 
-div input {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 15px;
-    box-shadow: 2px 2px 3px #0000005e;
-    border-radius: 10px;
-    border-style: none;
-    position: relative;
-    left: 45px;
-    bottom: 20px;
-    width: 90px;
-    height: 50px;
-}
+    main {
+        box-shadow: 2px 2px 3px #0000005e;
+        border-radius: 10px;
+        background-color: #dab618;
+        margin: auto;
+        margin-top: 20px;
+        width: 300px;
+        height: 480px;
+    }
 
-.gerar { 
-    background-color: #4245f1;
-    box-shadow: 2px 2px 3px #0000005e;
-    border-radius: 10px;
-    border-style: none;
-    font-size: 12px;
-    width: 65px;
-    height: 50px;
-}
-.gerar:active {
-    background-color: #7a7bda;
-}
+    section {
+        margin: auto;
+        display: block;
+    }
 
-.apagar {
-    font-size: 15px;
-    width: 65px;
-    height: 50px;
-}
-.apagar:active {
-    background-color: #616164;
-}
+    div  p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
 
-#seltab {
-    color: #4245f1;
-    display: inline-block;
-    padding: 5px;
-    box-shadow: 2px 2px 3px 3px #0000005e;
-    position: relative;
-    left: 100px;
-}
+    div input {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 15px;
+        box-shadow: 2px 2px 3px #0000005e;
+        border-radius: 10px;
+        border-style: none;
+        position: relative;
+        left: 35px;
+        bottom: 20px;
+        width: 90px;
+        height: 50px;
+    }
 
+    .gerar { 
+        background-color: #4245f1;
+        box-shadow: 2px 2px 3px #0000005e;
+        border-radius: 10px;
+        border-style: none;
+        font-size: 12px;
+        width: 65px;
+        height: 50px;
+    }
+    .gerar:active {
+        background-color: #7a7bda;
+    }
 
+    .apagar {
+        font-size: 15px;
+        width: 65px;
+        height: 50px;
+    }
+    .apagar:active {
+        background-color: #616164;
+    }
 
-footer {
-    box-shadow: 1px 1px 10px 3px #0000005e;
-    margin-top: 0px;
-    
-    color: white;
-    text-align: center;
-    font-style: italic;
+    #seltab {
+        color: #4245f1;
+        display: inline-block;
+        padding: 5px;
+        box-shadow: 2px 2px 3px 3px #0000005e;
+        position: relative;
+        left: 100px;
+    }
+
+    footer {
+        box-shadow: 1px 1px 10px 3px #0000005e;
+        margin-top: 0px;
+        color: white;
+        text-align: center;
+        font-style: italic;
+    }
 }
