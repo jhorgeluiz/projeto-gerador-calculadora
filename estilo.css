@@ -85,8 +85,8 @@ div input {
 #seltab {
     color: #4245f1;
     display: inline-block;
-    border: 3px solid #4245f1;
-    box-shadow: 2px 2px 3px 1px #0000005e;
+    padding: 5px;
+    box-shadow: 2px 2px 3px 3px #0000005e;
     position: relative;
     left: 100px;
 }
