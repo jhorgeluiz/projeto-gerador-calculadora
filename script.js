@@ -19,3 +19,11 @@ function tabuada() {
     }
     
 }
+
+function apagar() {
+    let camp = document.getElementById('txtn').value = ''
+    let div = document.getElementById('seltab')
+    if (camp == 0) {
+        seltab.innerHTML = ''
+    }
+}
